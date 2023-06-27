@@ -8,8 +8,10 @@
     <classes>
       <class name="com.TestLayer.LoginPageTest">
         <methods>
+          <include name="validateLoginFunctionality"/>
           <include name="validateUrl"/>
           <include name="setup"/>
+          <include name="validateTitle"/>
           <include name="teardown"/>
         </methods>
       </class> <!-- com.TestLayer.LoginPageTest -->
